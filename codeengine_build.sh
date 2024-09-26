@@ -1,15 +1,15 @@
 #!/bin/bash
 
-export BX_API_KEY=<valid_api_key>
-export REGION='eu-gb'
-export RESOURCE_GROUP='technology-experiences'
-export NAMESPACE='research3'
-export PROJECT_NAME='fasthtml-poc3'
-export SECRET_NAME='pc3-secret'
-export REGISTRY_SERVER='private.uk.icr.io'
-export APP_NAME='poc3'
-export APP_SOURCE='https://github.com/jmj-ibm/fasthtml-poc'
-export APP_PORT=5001
+export BX_API_KEY=$API_KEY
+export REGION=$REGION
+export RESOURCE_GROUP=$RESOURCE_GROUP
+export NAMESPACE=$NAMESPACE
+export PROJECT_NAME=$PROJECT_NAME
+export SECRET_NAME=$SECRET_NAME
+export REGISTRY_SERVER=$REGISTRY_SERVER
+export APP_NAME=$APP_NAME
+export APP_SOURCE=$APP_SOURCE
+export APP_PORT=$APP_PORT
 
 # log in
 bx login --apikey $BX_API_KEY
